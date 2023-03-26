@@ -1,0 +1,51 @@
+.card {
+  margin: 40px;
+  padding: 30px;
+  width: 200px;
+  border-radius: 15px;
+  background: rgb(219, 241, 73);
+  background: linear-gradient(115deg, rgba(219, 241, 73, 1) 24%, rgba(241, 73, 236, 1) 50%, rgba(0, 54, 255, 1) 80%);
+  color: black;
+  font-size: 25px;
+  font-family: "Eskool-Regular";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.card-element {
+  margin: 20px;
+}
+
+.place {
+  font-size: 30px;
+}
+
+.temperature {
+  font-size: 50px;
+}
+
+.wind-icon {
+  width: 30px;
+}
+
+.windspeed {
+  display: flex;
+  align-items: center;
+}
+
+.wind-icon {
+  margin-left: 20px;
+}
+
+.weathercode {
+  font-size: 20px;
+}
+
+@font-face {
+  font-family: Eskool-Regular;
+  src: url("/fonts/Eskool-Regular.ttf") format("truetype");
+}
