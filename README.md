@@ -1,2 +1,5 @@
+## Simple weather app
 
-A simple weather app shows weather information for your current location. 
+It shows weather information for your current location. 
+
+https://alisherkhamidov.github.io/simple_weather_app/
