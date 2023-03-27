@@ -40,9 +40,9 @@ async function main() {
   const { temperature, windspeed, weathercode } = current_weather;
   console.log("t: " + temperature + " " + windspeed + " " + weathercode);
   placeElement.innerText += " " + city.toUpperCase();
-  temperatureElement.innerText = windspeed + "°";
-  const temperatureText = document.createTextNode(temperature);
-  windspeedElement.insertBefore(temperatureText, windspeedElement.firstChild);
+  temperatureElement.innerText = temperature + "°";
+  const windspeedText = document.createTextNode(windspeed);
+  windspeedElement.insertBefore(windspeedText, windspeedElement.firstChild);
   weathercodeElement.innerText = getWeatherDescriptionByCode(weathercode);
 }
 
