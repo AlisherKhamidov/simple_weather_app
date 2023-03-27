@@ -30,15 +30,12 @@
 
 .wind-icon {
   width: 30px;
+  margin-left: 20px;
 }
 
 .windspeed {
   display: flex;
   align-items: center;
-}
-
-.wind-icon {
-  margin-left: 20px;
 }
 
 .weathercode {
@@ -47,5 +44,5 @@
 
 @font-face {
   font-family: Eskool-Regular;
-  src: url("/fonts/Eskool-Regular.ttf") format("truetype");
+  src: url("./fonts/Eskool-Regular.ttf") format("truetype");
 }
